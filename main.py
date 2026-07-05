@@ -1,5 +1,15 @@
-from downloader import YTRunner
+import sys
+import subprocess
 
+try:
+    import yt_dlp
+except ImportError:
+    print("[~] yt-dlp not found, installing...")
+    subprocess.check_call([sys.executable,"-m","pip","install","yt-dlp"])
+    import yt_dlp
+    
+from downloader import YTRunner
+    
 def main():
     print("===== Youtube Downloader====")
     
