@@ -1,1 +1,18 @@
 ffmpeg_bin/
+
+# Downloaded videos / audio
+*.mp4
+*.mkv
+*.webm
+*.mp3
+*.m4a
+*.opus
+*.aac
+*.wav
+*.flac
+*.ogg
+
+# yt-dlp temp files
+*.part
+*.ytdl
+*.f*
