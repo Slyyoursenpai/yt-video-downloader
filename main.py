@@ -15,7 +15,7 @@ def main():
     success = YTRunner().execute_download(url,choice)
     
     if success: 
-        print("\n Success, Cjeck downloaded file")
+        print("\n Success, Check downloaded file")
     else:
         print("\n Download failed")
         
