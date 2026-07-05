@@ -16,3 +16,5 @@ ffmpeg_bin/
 *.part
 *.ytdl
 *.f*
+
+__pycache__/
